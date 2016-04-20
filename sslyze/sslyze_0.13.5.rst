@@ -8,8 +8,7 @@ Description
 
 * SSLyze is a Python tool that can analyze the SSL configuration of a server by connecting to it.
 
-* It is designed to be fast and comprehensive, and should help organizations and testers identify 
-mis-configurations affecting their SSL servers.
+* It is designed to be fast and comprehensive, and should help organizations and testers identify mis-configurations affecting their SSL servers.
 
 Why SSLyze
 ----------

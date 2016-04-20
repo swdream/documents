@@ -43,16 +43,15 @@ Create the key and cerfiticate:
 
 More detail:
 
-    * **openssl**: cli tool which is provided by OpenSSl to create and manage key, cerfiticate, signing requests ...
-    * **req**: specifies a subcommand for X.509 certificate signing request (CSR) management. More detail for X.509 `here <https://en.wikipedia.org/wiki/X.509>`_.
-    * **-x509**:  specifies that we want to make a self-signed certificate file instead of generating a certificate request.
-    * **-nodes**: don't use passphrase for key file.
-    * **-day**: the number of days that key and cerfiticate are valid.
-    * **-newkey**: create the cerfiticate request and a new private key at the same time.
-    * **rsa:2048**: rsa key and 2048 bits.
-    * **-keyout**: output file where contain private key.
-    * **-out**: output file where contains cerfiticate.
-
+* **openssl**: cli tool which is provided by OpenSSl to create and manage key, cerfiticate, signing requests ...
+* **req**: specifies a subcommand for X.509 certificate signing request (CSR) management. More detail for X.509 `here <https://en.wikipedia.org/wiki/X.509>`_.
+* **-x509**:  specifies that we want to make a self-signed certificate file instead of generating a certificate request.
+* **-nodes**: don't use passphrase for key file.
+* **-day**: the number of days that key and cerfiticate are valid.
+* **-newkey**: create the cerfiticate request and a new private key at the same time.
+* **rsa:2048**: rsa key and 2048 bits.
+* **-keyout**: output file where contain private key.
+* **-out**: output file where contains cerfiticate.
 
 3. Configure Apache to use SSL
 ------------------------------

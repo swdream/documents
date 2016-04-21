@@ -103,4 +103,9 @@ Visit your server's domain name or IP with `https` protocol::
     https://server_domain_name_or_IP 
 
 
+.. _figure_ssl_apache2_verification:
+
+.. figure:: figures/ssl_apache2.PNG
+   :alt: ssl apache2 verification
+
 For more detail, please refer to `here <https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04>`_.
